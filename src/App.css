@@ -46,27 +46,27 @@
 }
 
 .sidebar li:nth-child(1) a:hover {
-  color: #c2b5ad
+  color: #c2b5ad;
 }
 
 .sidebar li:nth-child(1) a::after {
-  background-color: #c2b5ad
+  background-color: #c2b5ad;
 }
 
 .sidebar li:nth-child(2) a:hover {
-  color: #f19c9d
+  color: #f19c9d;
 }
 
 .sidebar li:nth-child(2) a::after {
-  background-color: #f19c9d
+  background-color: #f19c9d;
 }
 
 .sidebar li:nth-child(3) a:hover {
-  color: #7b8e76
+  color: #7b8e76;
 }
 
 .sidebar li:nth-child(3) a::after {
-  background-color: #7b8e76
+  background-color: #7b8e76;
 }
 
 .App-logo {

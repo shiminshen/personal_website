@@ -1,4 +1,8 @@
 #work {
   height: 100%;
-  background-color: #f19c9d
+  background-color: #f19c9d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

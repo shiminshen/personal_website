@@ -8,7 +8,12 @@ class Home extends Component {
   render() {
     return (
       <div id='home'>
-        Home
+        <div className='greet'>
+          <p> Hi, </p>
+          <p> I'm Damon, </p>
+          <p> designer. </p>
+        </div>
+
       </div>
     );
   }
