@@ -19,14 +19,12 @@ class App extends Component {
     return (
       <Router>
         <div className="App container-fluid">
-          <div className="row">
-            <div className='sidebar col-4'>
-              <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/work">Work</Link></li>
-                <li><Link to="/portfolio">Portfolio</Link></li>
-              </ul>
-            </div>
+          <div className="wrapper row align-items-center">
+            <ul className='sidebar col-4'>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/work">Work</Link></li>
+              <li><Link to="/portfolio">Portfolio</Link></li>
+            </ul>
             <div className='main col-8'>
               <Route exact path='/' component={Home}/>
               <Route exact path='/work' component={Work}/>

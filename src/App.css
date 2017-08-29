@@ -1,5 +1,68 @@
 .App {
   text-align: center;
+  height: 100vh;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.sidebar {
+  list-style-type: none;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sidebar li a {
+  color: #666;
+  display: inline-block;
+  transition: all .3s;
+}
+
+.sidebar li a::after {
+  position: relative;
+  left: -5px;
+  top: -10px;
+  content: '';
+  display: block;
+  width: 0;
+  height: 12px;
+  opacity: 0.2;
+  transition: width .3s ease-out;
+}
+
+.sidebar li a:hover::after {
+  width: calc(100% + 10px);
+}
+
+.sidebar li a{
+  text-decoration: none;
+}
+
+.sidebar li:nth-child(1) a:hover {
+  color: #c2b5ad
+}
+
+.sidebar li:nth-child(1) a::after {
+  background-color: #c2b5ad
+}
+
+.sidebar li:nth-child(2) a:hover {
+  color: #f19c9d
+}
+
+.sidebar li:nth-child(2) a::after {
+  background-color: #f19c9d
+}
+
+.sidebar li:nth-child(3) a:hover {
+  color: #7b8e76
+}
+
+.sidebar li:nth-child(3) a::after {
+  background-color: #7b8e76
 }
 
 .App-logo {
