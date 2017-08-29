@@ -7,6 +7,10 @@
   height: 100%;
 }
 
+.main {
+  height: 100%;
+}
+
 .sidebar {
   list-style-type: none;
   height: 30%;
