@@ -20,6 +20,7 @@
 }
 
 .sidebar li a {
+  font-size: 1.4em;
   color: #666;
   display: inline-block;
   transition: all .3s;
@@ -27,18 +28,18 @@
 
 .sidebar li a::after {
   position: relative;
-  left: -5px;
-  top: -10px;
+  left: -0.4em;
+  top: -0.6em;
+  height: 0.7em;
   content: '';
   display: block;
   width: 0;
-  height: 12px;
   opacity: 0.2;
   transition: width .3s ease-out;
 }
 
 .sidebar li a:hover::after {
-  width: calc(100% + 10px);
+  width: calc(100% + 0.8em);
 }
 
 .sidebar li a{
@@ -46,19 +47,19 @@
 }
 
 .sidebar li:nth-child(1) a:hover {
-  color: #c2b5ad;
-}
-
-.sidebar li:nth-child(1) a::after {
-  background-color: #c2b5ad;
-}
-
-.sidebar li:nth-child(2) a:hover {
   color: #8e4f5a;
 }
 
-.sidebar li:nth-child(2) a::after {
+.sidebar li:nth-child(1) a::after {
   background-color: #8e4f5a;
+}
+
+.sidebar li:nth-child(2) a:hover {
+  color: #c2b5ad;
+}
+
+.sidebar li:nth-child(2) a::after {
+  background-color: #c2b5ad;
 }
 
 .sidebar li:nth-child(3) a:hover {
