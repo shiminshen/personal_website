@@ -1,6 +1,9 @@
 #home {
   height: 100%;
-  background-color: #c2b5ad;
+  /* background-color: #c2b5ad; */
+  background-image: url('/home.jpg');
+  background-size: cover;
+  background-position: left bottom;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,7 +11,13 @@
 }
 
 .greet {
-  width: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10%;
+  width: 80%;
   font-size: xx-large;
   text-align: left;
+}
+
+.typist {
+  display: inline;
 }
