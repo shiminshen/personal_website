@@ -23,7 +23,7 @@ class Home extends Component {
       sloganIdx
     } = this.state;
 
-    setTimeout(() => {
+    this.timeout = setTimeout(() => {
       this.setState({ typing: false }, () => {
         this.setState({
           typing: true, 
@@ -32,6 +32,10 @@ class Home extends Component {
       })
     }, 3000)
 
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.timeout)
   }
 
   render() {
