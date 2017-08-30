@@ -12,6 +12,8 @@ class Work extends Component {
         <Company 
           name='Simmcloud'
           job='Front-end engineer'
+          startDate={'July 2015'}
+          endDate={'July 2017'}
           link='http://www.simmcloud.com/'
           imgSrc='http://www.simmcloud.com/assets/css/images/Index/logo-1160x1160.png'
         />
