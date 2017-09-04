@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import './Project.css'
 
 class Project extends Component {
-
   
   render() {
 
@@ -13,7 +13,7 @@ class Project extends Component {
     } = this.props;
 
     return (
-      <div className='col-4'>
+      <div className='project col-4 col-md-6 col-sm-12'>
         <h1>
           <button 
             className='bttn-stretch bttn-lg'

@@ -14,13 +14,13 @@ class Portfolio extends Component {
         hashtags: ['jquery', 'react'],
         description: 'Simmcloud is a online stock backtest system which can help investors to revise their portfolio strategies.'
       }, {
-        name: 'SimmChip',
+        name: 'ChipMonitor',
         hashtags: ['react','redux'],
-        description: ''
+        description: 'ChipMonitor is a monitor of stock chip which can show the daily chip data of all brokers in each stock'
       }, {
         name: 'ChipRobot',
         hashtags: ['express', 'mongoDB'],
-        description: ''
+        description: 'ChipRobot is a facebook chatbot which can'
       }
     ]
 
