@@ -24,7 +24,7 @@ class Company extends Component {
             <h1>{name}</h1>
             <h3>{job}</h3>
             <h5>{`${startDate} ~ ${endDate}`}</h5>
-            <a target='_blank' href={link}>Visit website</a>
+            <button className='bttn-pill bttn-md bttn-primary' target='_blank' href={link}>Visit website</button>
           </div>
           <div className='col-6'>
             <a target='_blank' href={link}>
