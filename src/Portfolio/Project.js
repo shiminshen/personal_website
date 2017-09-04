@@ -14,9 +14,13 @@ class Project extends Component {
 
     return (
       <div>
-        <h1>{name}</h1>
+        <h1>
+          <button 
+            className='bttn-stretch bttn-lg'
+          >{name}</button>
+        </h1>
         {
-        hashtags.map( hashtag => <span>{hashtag} </span> )
+        hashtags.map( hashtag => <span key={hashtag}>{hashtag} </span> )
         }
       </div>
     );
