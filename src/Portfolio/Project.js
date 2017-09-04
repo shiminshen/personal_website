@@ -13,7 +13,7 @@ class Project extends Component {
     } = this.props;
 
     return (
-      <div>
+      <div className='col-4'>
         <h1>
           <button 
             className='bttn-stretch bttn-lg'
@@ -22,6 +22,7 @@ class Project extends Component {
         {
         hashtags.map( hashtag => <span key={hashtag}>{hashtag} </span> )
         }
+        <p>{description}</p>
       </div>
     );
   }
