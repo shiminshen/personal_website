@@ -6,8 +6,10 @@
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently
   supported by Chrome and Opera */
+  overflow: hidden;
   text-align: center;
   height: 100vh;
+  font-family: 'Muli', sans-serif;
 }
 
 .wrapper {

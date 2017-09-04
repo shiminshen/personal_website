@@ -4,10 +4,12 @@
   "homepage": "https://shiminshen.github.io/personal_website",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.5.2",
     "bootstrap": "next",
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-reveal": "^0.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.12",
     "react-typist": "^1.1.1"

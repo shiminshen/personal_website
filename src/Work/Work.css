@@ -6,3 +6,18 @@
   justify-content: center;
   align-items: center;
 }
+
+.mask { 
+  margin-top: 25px;
+  overflow:hidden; height:25px; 
+}
+
+.mask::after { 
+  content: ''; 
+  display: block;
+  margin: -25px auto 0;
+  width: 30em;
+  height: 25px;  
+  border-radius: 125px / 12px;  
+  box-shadow: 0 0 8px black;
+}

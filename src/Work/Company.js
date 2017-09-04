@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import Reveal from 'react-reveal'
 
+import 'animate.css/animate.css'
 import './Company.css'
 
 class Company extends Component {
@@ -16,13 +18,16 @@ class Company extends Component {
     } = this.props;
 
     return (
-      <div className='company container'>
+      <Reveal effect='animated fadeIn' className='company container'>
         <div className='row'>
           <div className='col-6'>
             <h1>{name}</h1>
             <h3>{job}</h3>
             <h5>{`${startDate} ~ ${endDate}`}</h5>
-            <a target='_blank' href={link}>Visit website</a>
+            <button 
+              className='bttn-pill bttn-md bttn-primary'
+              onClick={() => window.open(link, '_blank')}
+            >Visit website</button>
           </div>
           <div className='col-6'>
             <a target='_blank' href={link}>
@@ -30,7 +35,7 @@ class Company extends Component {
             </a>
           </div>
         </div>
-      </div>
+      </Reveal>
     );
   }
 }
