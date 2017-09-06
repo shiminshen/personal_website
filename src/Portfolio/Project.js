@@ -13,7 +13,7 @@ class Project extends Component {
     } = this.props;
 
     return (
-      <div className='project col-4 col-md-6 col-sm-12'>
+      <div className='project col-md-6 col-sm-12'>
         <h1>
           <button 
             className='bttn-stretch bttn-lg'
