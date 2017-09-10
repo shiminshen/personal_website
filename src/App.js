@@ -12,6 +12,7 @@ import './App.css';
 import Home from './Home'
 import Work from './Work'
 import Portfolio from './Portfolio'
+import Contact from './Contact'
 
 
 class App extends Component {
@@ -24,11 +25,13 @@ class App extends Component {
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/work'>Work</Link></li>
               <li><Link to='/portfolio'>Portfolio</Link></li>
+              <li><Link to='/contact'>Contact</Link></li>
             </ul>
             <div className='main col-8'>
               <Route exact path='/' component={Home}/>
               <Route exact path='/work' component={Work}/>
               <Route exact path='/portfolio' component={Portfolio}/>
+              <Route exact path='/contact' component={Contact}/>
             </div>
           </div>
         </div>
