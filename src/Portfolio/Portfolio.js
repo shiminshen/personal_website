@@ -16,16 +16,16 @@ class Portfolio extends Component {
       }, {
         name: 'ChipMonitor',
         hashtags: ['react','redux'],
-        description: 'ChipMonitor is a monitor of stock chip which can show the daily chip data of all brokers in each stock'
+        description: 'ChipMonitor is a monitor of stock chip which can show the daily chip data of all brokers in each stock.'
       }, {
         name: 'ChipRobot',
         hashtags: ['express', 'mongoDB'],
-        description: 'ChipRobot is a facebook chatbot which can'
+        description: 'ChipRobot is a facebook chatbot which can response the users\' messanges.'
       }
     ]
 
     return (
-      <div className='container' id='portfolio'>
+      <div className='container-fluid' id='portfolio'>
 
         <div className="row">
           {
