@@ -35,9 +35,9 @@ class App extends Component {
                 <CSSTransition
                   key={location.pathname}
                   classNames='change-route'
-                  timeout={500}
+                  timeout={{ enter: 800, exit: 500 }}
                 >
-                  <Switch>
+                  <Switch location={location}>
                     <Route exact path='/' component={Home}/>
                     <Route exact path='/work' component={Work}/>
                     <Route exact path='/portfolio' component={Portfolio}/>

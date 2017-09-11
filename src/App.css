@@ -23,26 +23,23 @@
 }
 
 .change-route-enter {
-  position: relative;
-  left: 100%;
-  opacity: 0;
+  transform: translate(100%);
 }
 
 .change-route-enter.change-route-enter-active {
-  opacity: 1;
-  left: 0;
-  transition: all 500ms ease-in-out;
+  transform: translate(0%);
+  transition: all 800ms ease-in-out;
 }
 
 .change-route-exit {
-  position: relative;
-  left: 0;
+  transform: translate(0%, -100%);
+  opacity: 1;
 }
 
 .change-route-exit.change-route-exit-active {
-  left: -100%;
+  transform: translate(100%, -100%);
   opacity: 0;
-  transition: all 500ms ease-in;
+  transition: all 500ms ease-in-out;
 }
 
 .sidebar {
