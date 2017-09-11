@@ -8,7 +8,7 @@ class Project extends Component {
     let {
       name,
       hashtags,
-      srcUrl,
+      link,
       description
     } = this.props;
 
@@ -17,6 +17,7 @@ class Project extends Component {
         <h1>
           <button 
             className='bttn-stretch bttn-lg'
+            onClick={() => window.open(link, '_blank')}
           >{name}</button>
         </h1>
         {
