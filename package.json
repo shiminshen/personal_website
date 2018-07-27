@@ -5,16 +5,16 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.5.2",
-    "bootstrap": "next",
+    "bootstrap": "^4.1.3",
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.0.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-reveal": "^0.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.12",
+    "react-scripts": "1.1.4",
     "react-transition-group": "^2.2.0",
-    "react-typist": "^1.1.1"
+    "react-typist": "^2.0.4"
   },
   "scripts": {
     "predeploy": "npm run build",
